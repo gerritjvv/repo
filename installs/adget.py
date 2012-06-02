@@ -1,22 +1,30 @@
 from __future__ import with_statement
-from fabric.api import local, settings, abort, run, cd
+from fabric.api import local, settings, abort, run, cd, lcd, sudo
+from fabric.operations import put
 from fabric.contrib.console import confirm
 
 
-code_dir = '/var/adget'
+code_dir = '/var/adget/git'
+project_dir = '/var/adget/git/parent'
 
 def checkout():
     with settings(warn_only=True):
-        if run("test -d %s" % code_dir).failed:
-            run("git clone git@adget:reducedata/adget.git %s" % code_dir)
-    with cd(code_dir):
-        run("git pull")
+        if local("test -d %s" % code_dir).failed:
+            local("git clone git@adget:reducedata/adget.git %s" % code_dir)
+    with lcd(project_dir):
+        local("git pull")
 
 def package():
     checkout()
-    cd(code_dir + 'parent')
-    run("./depsinstall.sh")
-    run("mvn clean install")
-    cd("adget-server")
-    run("mvn rpm:rpm")
+    with lcd(project_dir):
+       local("./depsinstall.sh")
+       local("mvn clean install -Dmaven.test.skip=true")
+       with lcd("./adget-server"):
+           local("mvn rpm:rpm")
 
+
+def copyrpm(src_rpm):
+     with cd("/tmp/"):
+        put(src_rpm, "adget.rpm")
+        sudo("rpm -iU /tmp/adget.rpm")
+  
