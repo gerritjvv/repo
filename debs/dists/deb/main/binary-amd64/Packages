@@ -1,0 +1,109 @@
+Package: apache-cassandra1
+Version: 1.0.9-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 9938
+Priority: extra
+Section: alien
+Filename: pool/main/a/apache-cassandra1/apache-cassandra1_1.0.9-2_all.deb
+Size: 9268716
+SHA256: 8819a551ef0312a8d8332d2b882318e64caeee2605700518065131cd1c99bd11
+SHA1: fe74fca61e73164adc1f26e459be5d42350bda7f
+MD5sum: 36c5c82404ae82f93e25786263563af6
+Description: Cassandra is a highly scalable, eventually consistent, distributed, structured key-value store.
+ Cassandra brings together the distributed systems technologies from Dynamo
+ and the data model from Google's BigTable. Like Dynamo, Cassandra is
+ eventually consistent. Like BigTable, Cassandra provides a ColumnFamily-based
+ data model richer than typical key/value systems.
+ .
+ For more information see http://cassandra.apache.org/
+ .
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: hadoop
+Version: 1.0.4-6
+Architecture: amd64
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 120748
+Depends: libc6 (>= 2.4), libc6-i386 (>= 2.3.4)
+Priority: extra
+Section: alien
+Filename: pool/main/h/hadoop/hadoop_1.0.4-6_amd64.deb
+Size: 40819592
+SHA256: af69e6cd83de49c103f65f4dd2ed303c79de7d695f41801fd9dd691b41783ee4
+SHA1: fe84b620f5d928edf0e828a1e2720e30c112e217
+MD5sum: d3c43f68b0c83e1cd6b3ddfaa1d3499f
+Description: hadoop
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: hadoop-gpl-packaging
+Version: 0.5.4-2
+Architecture: amd64
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 4441
+Depends: libc6 (>= 2.2.5)
+Priority: extra
+Section: alien
+Filename: pool/main/h/hadoop-gpl-packaging/hadoop-gpl-packaging_0.5.4-2_amd64.deb
+Size: 3738532
+SHA256: b9fb037ba2f0784d3a813d088e14e5a0a19bb7aaced635520365763110ceffa2
+SHA1: 568de2d535ff9e88404626cdfcdb8fd1d8774b2d
+MD5sum: 422b0e8ac543fb10f9db20abcbd29e0e
+Description: hadoop-gpl-packaging
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: hbase
+Version: 0.94.0-8
+Architecture: amd64
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 46229
+Priority: extra
+Section: alien
+Filename: pool/main/h/hbase/hbase_0.94.0-8_amd64.deb
+Size: 40521666
+SHA256: d534e8941912dfd1c5cbfd698076c1d71a8b65fd82744b988d6561a6b27b0bba
+SHA1: 08cef59db663daf9738eb450201754779fb92088
+MD5sum: 78d8e4a8e3c94463f3eed013fb06c398
+Description: hadoop
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: jdk
+Version: 1.7.004-1
+Architecture: amd64
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 116687
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6
+Priority: extra
+Section: alien
+Filename: pool/main/j/jdk/jdk_1.7.004-1_amd64.deb
+Size: 67894506
+SHA256: e4821dc8c7ce32832f08c8e76bda2dc11c8d9098a630b35a2ead01e36be7e8cb
+SHA1: 670e621b828d4c9d169357b05bf8d2c2713f27b8
+MD5sum: 2093e52a9495d867e303c4a0964ef0f9
+Description: Java(TM) Platform Standard Edition Development Kit
+ The Java Platform Standard Edition Development Kit (JDK) includes both
+ the runtime environment (Java virtual machine, the Java platform classes
+ and supporting files) and development tools (compilers, debuggers,
+ tool libraries and other tools).
+ .
+ The JDK is a development environment for building applications, applets
+ and components that can be deployed with the Java Platform Standard
+ Edition Runtime Environment.
+ .
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: zookeeper
+Version: 3.4.5-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 11637
+Priority: extra
+Section: alien
+Filename: pool/main/z/zookeeper/zookeeper_3.4.5-2_all.deb
+Size: 9343284
+SHA256: b79a6f4ccf4440062077fb0e73b64888f47792fa0c20f3a5edffd6882b65cad8
+SHA1: 0e59e8be8644ed87a81272bcd0cd4869fae6dfb1
+MD5sum: 590adef93a63a509ecfedb1b9062a857
+Description: zookeeper
+ (Converted from a rpm package by alien version 8.88.)
+

@@ -1,0 +1,37 @@
+Package: apache-cassandra1
+Version: 1.0.9-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 9938
+Priority: extra
+Section: alien
+Filename: pool/main/a/apache-cassandra1/apache-cassandra1_1.0.9-2_all.deb
+Size: 9268716
+SHA256: 8819a551ef0312a8d8332d2b882318e64caeee2605700518065131cd1c99bd11
+SHA1: fe74fca61e73164adc1f26e459be5d42350bda7f
+MD5sum: 36c5c82404ae82f93e25786263563af6
+Description: Cassandra is a highly scalable, eventually consistent, distributed, structured key-value store.
+ Cassandra brings together the distributed systems technologies from Dynamo
+ and the data model from Google's BigTable. Like Dynamo, Cassandra is
+ eventually consistent. Like BigTable, Cassandra provides a ColumnFamily-based
+ data model richer than typical key/value systems.
+ .
+ For more information see http://cassandra.apache.org/
+ .
+ (Converted from a rpm package by alien version 8.88.)
+
+Package: zookeeper
+Version: 3.4.5-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 11637
+Priority: extra
+Section: alien
+Filename: pool/main/z/zookeeper/zookeeper_3.4.5-2_all.deb
+Size: 9343284
+SHA256: b79a6f4ccf4440062077fb0e73b64888f47792fa0c20f3a5edffd6882b65cad8
+SHA1: 0e59e8be8644ed87a81272bcd0cd4869fae6dfb1
+MD5sum: 590adef93a63a509ecfedb1b9062a857
+Description: zookeeper
+ (Converted from a rpm package by alien version 8.88.)
+
