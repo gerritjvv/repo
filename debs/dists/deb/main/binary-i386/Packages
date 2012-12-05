@@ -20,6 +20,21 @@ Description: Cassandra is a highly scalable, eventually consistent, distributed,
  .
  (Converted from a rpm package by alien version 8.88.)
 
+Package: pig
+Version: 0.10.0-6
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 35323
+Priority: extra
+Section: alien
+Filename: pool/main/p/pig/pig_0.10.0-6_all.deb
+Size: 28230098
+SHA256: 270c15e858bd67f60a5c7a4495c8d512e113d0714c0e0186ff1353f909efdcee
+SHA1: 9eee94c9565aea40b6ff3c68ae66a0f69196bd4f
+MD5sum: f4350c2331392e90277ce21c4bc7455b
+Description: pig
+ (Converted from a rpm package by alien version 8.88.)
+
 Package: zookeeper
 Version: 3.4.5-2
 Architecture: all
