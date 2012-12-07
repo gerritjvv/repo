@@ -20,19 +20,34 @@ Description: Cassandra is a highly scalable, eventually consistent, distributed,
  .
  (Converted from a rpm package by alien version 8.88.)
 
+Package: glue-rest
+Version: 0.2.1-10
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 43265
+Priority: extra
+Section: alien
+Filename: pool/main/g/glue-rest/glue-rest_0.2.1-10_all.deb
+Size: 40110970
+SHA256: 6b1691723312a2c0aefb69f11c45955e217c803f0d3a93bb71289402887d876f
+SHA1: c0911bb9d5685fd77b39bb5de268ed9c55825870
+MD5sum: 4cc20b37e820862ef233a474c9a2efe1
+Description: glue-rest
+ (Converted from a rpm package by alien version 8.88.)
+
 Package: hadoop
-Version: 1.0.4-6
+Version: 1.0.4-7
 Architecture: amd64
 Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
-Installed-Size: 120748
+Installed-Size: 120752
 Depends: libc6 (>= 2.4), libc6-i386 (>= 2.3.4)
 Priority: extra
 Section: alien
-Filename: pool/main/h/hadoop/hadoop_1.0.4-6_amd64.deb
-Size: 40819592
-SHA256: af69e6cd83de49c103f65f4dd2ed303c79de7d695f41801fd9dd691b41783ee4
-SHA1: fe84b620f5d928edf0e828a1e2720e30c112e217
-MD5sum: d3c43f68b0c83e1cd6b3ddfaa1d3499f
+Filename: pool/main/h/hadoop/hadoop_1.0.4-7_amd64.deb
+Size: 40820848
+SHA256: d19c4b9148a527d2082c1b0a2045accaa1de9eddf556c8fcd2005a7d72210ae3
+SHA1: b80e4518e443414335464d9e5a0f5e2f189b9985
+MD5sum: bdc1a62d487b4f4a5e3fe6166ef9dc49
 Description: hadoop
  (Converted from a rpm package by alien version 8.88.)
 
@@ -96,14 +111,14 @@ Package: pig
 Version: 0.10.0-6
 Architecture: all
 Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
-Installed-Size: 35323
+Installed-Size: 35327
 Priority: extra
 Section: alien
 Filename: pool/main/p/pig/pig_0.10.0-6_all.deb
-Size: 28230098
-SHA256: 270c15e858bd67f60a5c7a4495c8d512e113d0714c0e0186ff1353f909efdcee
-SHA1: 9eee94c9565aea40b6ff3c68ae66a0f69196bd4f
-MD5sum: f4350c2331392e90277ce21c4bc7455b
+Size: 28230312
+SHA256: defa5b1b1780b6de88f865e78b1db950362f57ad6e51f57e7e509c181a22bfb5
+SHA1: 3f332118446fcc9effef8dfa48d1e78dae8406f7
+MD5sum: 89bcad421f37d8e3eb60dadf8f10616b
 Description: pig
  (Converted from a rpm package by alien version 8.88.)
 
