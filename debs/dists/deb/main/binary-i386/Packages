@@ -35,6 +35,21 @@ MD5sum: 4cc20b37e820862ef233a474c9a2efe1
 Description: glue-rest
  (Converted from a rpm package by alien version 8.88.)
 
+Package: kafka
+Version: 0.7.2-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 77096
+Priority: extra
+Section: alien
+Filename: pool/main/k/kafka/kafka_0.7.2-2_all.deb
+Size: 68253714
+SHA256: 3876f96948526da49480271dca8c6e1b382bdc86b9a4587c72f83a6c266d5cbf
+SHA1: 671228b60714f5ecfe7ffcabb3cf0e85fa88e1d3
+MD5sum: 879697941ae013d4b54df5d5b68a10c7
+Description: kafka
+ (Converted from a rpm package by alien version 8.88.)
+
 Package: pig
 Version: 0.10.0-6
 Architecture: all
