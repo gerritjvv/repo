@@ -123,18 +123,18 @@ Description: kafka
  (Converted from a rpm package by alien version 8.88.)
 
 Package: kafka-collector
-Version: 3.1-2
+Version: 3.2-2
 Architecture: amd64
 Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
 Installed-Size: 31753
 Depends: libc6 (>= 2.2.5), libc6-i386 (>= 2.4)
 Priority: extra
 Section: alien
-Filename: pool/main/k/kafka-collector/kafka-collector_3.1-2_amd64.deb
-Size: 28753872
-SHA256: 02bbd2b7815581af157c58cfbece9d114565ab4ab3cf7268f99850825a8e88da
-SHA1: de81287446014195ebd4a4ac496aad7da43369e7
-MD5sum: 226666191b00ab9e99c863474b793dc5
+Filename: pool/main/k/kafka-collector/kafka-collector_3.2-2_amd64.deb
+Size: 28753812
+SHA256: 3ffcad2fcae0d802b04b379cd257088cd355187eee046df48d00883cc1d58602
+SHA1: 38062909c74ebc6b4f993e0418e92611bf996692
+MD5sum: f3e62dc9fa478d9233b3a9057d91dabc
 Description: kafka-collector
  (Converted from a rpm package by alien version 8.88.)
 
