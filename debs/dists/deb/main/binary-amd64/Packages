@@ -122,6 +122,22 @@ MD5sum: 879697941ae013d4b54df5d5b68a10c7
 Description: kafka
  (Converted from a rpm package by alien version 8.88.)
 
+Package: kafka-collector
+Version: 3.0-2
+Architecture: amd64
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 31749
+Depends: libc6 (>= 2.2.5), libc6-i386 (>= 2.4)
+Priority: extra
+Section: alien
+Filename: pool/main/k/kafka-collector/kafka-collector_3.0-2_amd64.deb
+Size: 28749652
+SHA256: bc46aa1f31f704ba8b36540d7a8cdd081d67343be57c95d933317f0d2ed0099f
+SHA1: a42eb871f9e7ccd2857764a1e3dac317dd53bce7
+MD5sum: fbb37c69ce99c6a2d3675277a305d41d
+Description: kafka-collector
+ (Converted from a rpm package by alien version 8.88.)
+
 Package: pig
 Version: 0.10.0-6
 Architecture: all
