@@ -35,6 +35,21 @@ MD5sum: 4cc20b37e820862ef233a474c9a2efe1
 Description: glue-rest
  (Converted from a rpm package by alien version 8.88.)
 
+Package: gluecron
+Version: 0.3.0-2
+Architecture: all
+Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
+Installed-Size: 13732
+Priority: extra
+Section: alien
+Filename: pool/main/g/gluecron/gluecron_0.3.0-2_all.deb
+Size: 13082790
+SHA256: 565ba38459c09cf1f2fe3cebc5bc9e3a5966eb08696c1d5df4bce3032c55639f
+SHA1: cc6bebba1eb38146187589457d5fb52243ee95b5
+MD5sum: 876e544c829953ba4b22386ace7e1ab7
+Description: gluecron
+ (Converted from a rpm package by alien version 8.88.)
+
 Package: hadoop
 Version: 1.0.4-7
 Architecture: amd64
