@@ -51,18 +51,18 @@ Description: gluecron
  (Converted from a rpm package by alien version 8.88.)
 
 Package: hadoop
-Version: 1.0.4-7
+Version: 1.1.1-2
 Architecture: amd64
 Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
-Installed-Size: 120752
-Depends: libc6 (>= 2.4), libc6-i386 (>= 2.3.4)
+Installed-Size: 77325
+Depends: libc6 (>= 2.4), libc6-i386 (>= 2.2.4)
 Priority: extra
 Section: alien
-Filename: pool/main/h/hadoop/hadoop_1.0.4-7_amd64.deb
-Size: 40820848
-SHA256: d19c4b9148a527d2082c1b0a2045accaa1de9eddf556c8fcd2005a7d72210ae3
-SHA1: b80e4518e443414335464d9e5a0f5e2f189b9985
-MD5sum: bdc1a62d487b4f4a5e3fe6166ef9dc49
+Filename: pool/main/h/hadoop/hadoop_1.1.1-2_amd64.deb
+Size: 35894396
+SHA256: 9465749b8725c88fe629c4d0fc45089a613e0ea4fc8a4d677e238162e0ad5d21
+SHA1: 0f074f6dbb613c5245205d280d97496af9868266
+MD5sum: 784a27196715a24e425fc1af0c025850
 Description: hadoop
  (Converted from a rpm package by alien version 8.88.)
 
