@@ -67,18 +67,18 @@ Description: hadoop
  (Converted from a rpm package by alien version 8.88.)
 
 Package: hadoop-gpl-packaging
-Version: 0.5.4-2
+Version: 0.6.0-2
 Architecture: amd64
 Maintainer: gvanvuuren <gvanvuuren@gvanvuuren-UX31E>
-Installed-Size: 4441
+Installed-Size: 4728
 Depends: libc6 (>= 2.2.5)
 Priority: extra
 Section: alien
-Filename: pool/main/h/hadoop-gpl-packaging/hadoop-gpl-packaging_0.5.4-2_amd64.deb
-Size: 3738532
-SHA256: b9fb037ba2f0784d3a813d088e14e5a0a19bb7aaced635520365763110ceffa2
-SHA1: 568de2d535ff9e88404626cdfcdb8fd1d8774b2d
-MD5sum: 422b0e8ac543fb10f9db20abcbd29e0e
+Filename: pool/main/h/hadoop-gpl-packaging/hadoop-gpl-packaging_0.6.0-2_amd64.deb
+Size: 3996860
+SHA256: 55797afc7cfde828e9782f9a815aa7e210ed18f1b194f7fe652f35da10f281d6
+SHA1: fa340e92e0241f697a02f6a12cbe575b867d4955
+MD5sum: b881c27157513fd08309c0f345249a92
 Description: hadoop-gpl-packaging
  (Converted from a rpm package by alien version 8.88.)
 
